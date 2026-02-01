@@ -5,12 +5,12 @@
   makeDesktopItem,
   nix-update-script,
 }: let
-  version = "3.27.102";
+  version = "3.27.106";
   pname = "awakened-poe-trade";
 
   src = fetchurl {
     url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v${version}/Awakened-PoE-Trade-${version}.AppImage";
-    sha256 = "sha256-yisw7bc/dfgxcqxbqKVJOi6aG7HpvrFDIThBaD0kApk=";
+    sha256 = "sha256-8L5Szn0KYfUMaTe+yyhJV1YZspmJCSlXSHXLPoiRhjE=";
   };
 
   appimageContents = appimageTools.extract {

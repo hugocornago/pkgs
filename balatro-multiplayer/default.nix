@@ -5,12 +5,12 @@
   makeDesktopItem,
   nix-update-script,
 }: let
-  version = "1.0.14";
+  version = "1.0.15";
   pname = "balatro-multiplayer";
 
   src = fetchurl {
     url = "https://github.com/Balatro-Multiplayer/Balatro-Multiplayer-Launcher/releases/latest/download/balatro-multiplayer-launcher.AppImage";
-    sha256 = "sha256-jJWAZq2gcmNn8GjfxMpdYcSQysoWGPqnPerScVDETGA=";
+    sha256 = "sha256-E+Ypd02LfpjSi04+t9gxDD9earOlc4kpCtaA2PdHdLo=";
   };
 
   appimageContents = appimageTools.extract {
