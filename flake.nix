@@ -20,6 +20,7 @@
       orca-slicer-nightly = pkgs.callPackage ./orca-slicer-nightly {};
       balatro-mobile-maker = pkgs.callPackage ./balatro-mobile-maker {};
       balatro-multiplayer = pkgs.callPackage ./balatro-multiplayer {};
+      rusty-path-of-building = pkgs.callPackage ./rusty-path-of-building {};
     };
   };
 }
