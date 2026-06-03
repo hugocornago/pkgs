@@ -5,12 +5,12 @@
   makeDesktopItem,
   nix-update-script,
 }: let
-  version = "0.14.0";
+  version = "0.15.3";
   pname = "exiled-exchange-2";
 
   src = fetchurl {
     url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v${version}/Exiled-Exchange-2-${version}.AppImage";
-    sha256 = "sha256-weW+urAFexy3jCih3hmHmBR3PkhLLFxG7Bq3e+EAI2U=";
+    sha256 = "sha256-UamsF0Iq7FECsscX2xSoOP+yaP2KVb0FE7MLikBekF8=";
   };
 
   appimageContents = appimageTools.extract {inherit pname version src;};
